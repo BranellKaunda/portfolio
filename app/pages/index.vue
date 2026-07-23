@@ -22,6 +22,7 @@ const technologies = [
   { name: "Next.js", img: "https://svgl.app/library/nextjs.svg" }, */
   { name: "Vue", img: "https://svgl.app/library/vue.svg" },
   { name: "Nuxt", img: "https://svgl.app/library/nuxt.svg" },
+  { name: "Laravel", img: "https://svgl.app/library/laravel.svg" },
   { name: "TypeScript", img: "https://svgl.app/library/typescript.svg" },
   { name: "Tailwind CSS", img: "https://svgl.app/library/tailwindcss.svg" },
   { name: "PostgreSQL", img: "https://svgl.app/library/postgresql.svg" },
@@ -30,8 +31,8 @@ const technologies = [
 
 const experience = [
   {
-    period: "2025 — 2026",
-    role: "Front-End Developer",
+    period: "2025 - 2026",
+    role: "Web Developer",
     company: "Freelance",
     desc: "Developing and maintaining responsive web applications across multiple platforms.",
   },
@@ -109,7 +110,7 @@ const projects = [
         <p
           class="mb-4 text-sm font-semibold uppercase tracking-widest text-purple-400"
         >
-          Front-End Developer
+          Full-Stack Developer
         </p>
         <h1 class="text-4xl font-bold leading-tight text-white lg:text-6xl">
           Hello, I'm<br />
@@ -150,8 +151,8 @@ const projects = [
           </p>
         </div> -->
         <p class="mt-6 max-w-lg text-base leading-relaxed text-gray-400">
-          I am a junior front-end developer exploring the possibilities of web
-          applications. Building, Failing and Learning — that's the fun part.
+          I am a junior full-stack developer exploring the possibilities of web
+          applications. Building, Failing and Learning.
         </p>
         <div
           class="mt-8 flex items-center justify-center gap-5 lg:justify-start"
@@ -228,7 +229,7 @@ const projects = [
           }}</span>
           <h3 class="mt-1 text-xl font-semibold text-white">
             {{ exp.role }}
-            <span class="text-gray-400">— {{ exp.company }}</span>
+            <span class="text-gray-400"> - {{ exp.company }}</span>
           </h3>
           <p class="mt-2 text-sm leading-relaxed text-gray-400">
             {{ exp.desc }}
