@@ -1,11 +1,11 @@
 <script setup lang="ts">
 useHead({
-  title: "MadVue 2026 — Branell's Blog",
+  title: "MadVue 2026 - Branell's Blog",
   meta: [
     {
       name: "description",
       content:
-        "My first Vue conference in Madrid — an experience I want to relive over and over again.",
+        "My first Vue conference in Madrid - an experience I want to relive over and over again.",
     },
   ],
 });
@@ -48,7 +48,7 @@ useHead({
       </h1>
 
       <p class="mt-4 text-lg leading-relaxed text-gray-400">
-        This year I attended my first Vue conference in Madrid — an experience I
+        This year I attended my first Vue conference in Madrid. An experience I
         want to relive over and over again.
       </p>
 
@@ -70,7 +70,7 @@ useHead({
             class="transition-colors hover:text-purple-400"
             >MadVue</a
           >
-          crew. Honestly, that was the best way to start — breaking the ice
+          crew. Honestly, that was the best way to start - breaking the ice
           before the chaos of event day. I had conversations that went way
           deeper than I expected. You could just feel how much these people love
           what they do. It's not a job for them, it's a genuine obsession.
@@ -78,8 +78,8 @@ useHead({
 
         <p>
           Event day started at 8 AM and wrapped up around 7 PM, with little
-          breaks sprinkled between talks. Long day? Yes. Worth it? Absolutely.
-          The speaker lineup was stacked —
+          breaks in between talks. Long day? Yes. Worth it? Absolutely. The
+          speaker lineup was stacked -
           <a
             href="https://roe.dev"
             target="_blank"
@@ -101,7 +101,10 @@ useHead({
             class="transition-colors hover:text-purple-400"
             >Juan Andrés Núñez</a
           >, Eduardo San Martín to name a few. These are the ones that really
-          stuck with me.
+          stuck with me. Maybe it's because they were the ones I got to chat
+          with during breaks, or maybe it's because they just had a way of
+          explaining things that made me think, "I want to be able to do that
+          one day." Either way, they left a mark on me.
         </p>
 
         <p>
@@ -112,13 +115,12 @@ useHead({
             class="text-white transition-colors hover:text-purple-400"
             >Nico Devs</a
           >
-          talked about real-time apps with Vue and the way he spoke about it —
+          talked about real-time apps with Vue and the way he spoke about it -
           man. You could tell he wasn't just explaining a concept, he was
           sharing something he genuinely loves. That level of passion is rare.
           And then I found out he's self-taught. As someone who's also
-          self-taught, that hit different. It made me think: I want to get to a
-          point where I can talk about something I've built with that same
-          energy.
+          self-taught, that hit different. It shows me it is possible to get to
+          that level of expertise. Its not easy at all but possible.
         </p>
 
         <p>
@@ -145,30 +147,24 @@ useHead({
             class="text-white transition-colors hover:text-purple-400"
             >Daniel Roe</a
           >
-          — this man is a menace (in the best way). I've watched so many of his
+          .This man is a menace (in the best way). I've watched so many of his
           YouTube videos, and standing there watching him speak live felt like
           having a front row seat to something I'd only ever seen through a
           screen. Surreal.
         </p>
 
         <p>
-          Here's the thing nobody tells you about the Vue community — it's
-          genuinely the nicest community in tech. I'm not just saying that. The
-          speakers hung around after their talks, people actually listened to
-          each other, nobody made you feel stupid for asking questions. Coming
-          from someone who spends most of their time coding alone in a room, it
+          Something i never expected is how nice the community is... maybe its
+          my introverted perception but I'm glad i stepped out of my comfort
+          zone and got to experience it. What was even more welcoming was how
+          everyone listened to each other, regardless of experience level. It
           was refreshing.
         </p>
 
         <p>
           If you're a developer reading this and you're not sure whether to go
-          to a conference — just go. Talk to people. You'll be surprised what
+          to a conference, just go. Talk to people. You'll be surprised what
           happens when you put yourself out there.
-        </p>
-
-        <p>
-          Anyway. That was MadVue 2026. My first blog post. My first conference.
-          Definitely not my last.
         </p>
 
         <p>
@@ -181,6 +177,11 @@ useHead({
             >MadVue</a
           >
           for making it all happen.
+        </p>
+
+        <p>
+          Anyway. That was MadVue 2026. My first blog post. My first conference.
+          Definitely not my last.
         </p>
 
         <p class="text-white">

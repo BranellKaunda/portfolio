@@ -30,7 +30,7 @@ const technologies = [
 
 const experience = [
   {
-    period: "2025 — 2026",
+    period: "2025 - 2026",
     role: "Front-End Developer",
     company: "Freelance",
     desc: "Developing and maintaining responsive web applications across multiple platforms.",
@@ -151,7 +151,7 @@ const projects = [
         </div> -->
         <p class="mt-6 max-w-lg text-base leading-relaxed text-gray-400">
           I am a junior front-end developer exploring the possibilities of web
-          applications. Building, Failing and Learning — that's the fun part.
+          applications. Building, Failing and Learning.
         </p>
         <div
           class="mt-8 flex items-center justify-center gap-5 lg:justify-start"
@@ -228,7 +228,7 @@ const projects = [
           }}</span>
           <h3 class="mt-1 text-xl font-semibold text-white">
             {{ exp.role }}
-            <span class="text-gray-400">— {{ exp.company }}</span>
+            <span class="text-gray-400"> - {{ exp.company }}</span>
           </h3>
           <p class="mt-2 text-sm leading-relaxed text-gray-400">
             {{ exp.desc }}
