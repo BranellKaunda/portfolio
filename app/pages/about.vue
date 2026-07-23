@@ -1,11 +1,10 @@
 <script setup lang="ts">
 useHead({
-  title: "About — Branell Kaunda",
+  title: "About - Branell Kaunda",
   meta: [
     {
       name: "description",
-      content:
-        "A bit about me — self-taught developer and why embarrassment is the cost of entry.",
+      content: "A bit about me",
     },
   ],
 });
@@ -52,12 +51,12 @@ useHead({
         </p>
         <p>
           I learn by doing. Every project teaches me something and that for me
-          is the most important part of being a developer — you are always
+          is the most important part of being a developer - you are always
           learning.
         </p>
         <p>
           When I'm not coding, I'm learning piano, playing football or at the
-          gym. All of these taught me the same lesson — show up every day, even
+          gym. All of these taught me the same lesson, show up every day, even
           when it feels like nothing's happening. Each session compounds.
           Results take time, but they come.
         </p>
