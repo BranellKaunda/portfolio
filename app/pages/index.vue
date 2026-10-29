@@ -40,9 +40,24 @@ const experience = [
 
 const projects = [
   {
+    title: "Photo Finder",
+    image: "/photo-finder.png",
+    desc: "Let every guest find the photos they appear in with ease using facial recognition.",
+    working: true,
+    tags: ["Laravel", "AWS Recognition", "TypeScript"],
+    links: [
+      {
+        label: "View app",
+        url: "https://pick-production-ceks2g.laravel.cloud/",
+      },
+    ],
+  },
+
+  {
     title: "Outfit Generator",
+    image: "/outfit-generator.png",
     desc: "Plan your next outfit with ease. Upload your clothes and see how they look in real time. Built with Laravel and AI for image processing.",
-    tags: ["Laravel"],
+    tags: ["Laravel", "TypeScript"],
     links: [
       {
         label: "View app",
@@ -56,7 +71,7 @@ const projects = [
   },
   {
     title: "Data & Management Platform",
-    working: true,
+    image: "/management-app.png",
     desc: "A full-stack digital platform to modernize football management in grassroots areas. Register players, record match data, track youth development, and keep clean historical records.",
     tags: ["Nuxt", "Vue", "TypeScript", "PostgreSQL"],
     links: [
@@ -72,6 +87,7 @@ const projects = [
   },
   {
     title: "What to Wear?",
+    image: "/what-to-wear.png",
     desc: "A weather app that provides clothing recommendations based on current weather conditions. Built with React and the OpenWeatherMap API.",
     tags: ["React", "API"],
     links: [
@@ -82,18 +98,6 @@ const projects = [
       {
         label: "Source code",
         url: "https://github.com/BranellKaunda/weather-app",
-      },
-    ],
-  },
-  {
-    title: "Memory Game",
-    desc: "An interactive memory card game built with React showcasing dynamic state management and smooth UI transitions.",
-    tags: ["React"],
-    links: [
-      { label: "View app", url: "https://matching-images.vercel.app/" },
-      {
-        label: "Source code",
-        url: "https://plum-dotterel-668941.hostingersite.com/",
       },
     ],
   },
@@ -305,25 +309,11 @@ const projects = [
             </span>
             currently working on
           </div>
-          <div
-            class="mb-4 flex h-12 w-12 items-center justify-center rounded-md bg-purple-500/10 text-purple-400"
-          >
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="24"
-              height="24"
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-              stroke-width="2"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-            >
-              <path
-                d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"
-              />
-            </svg>
-          </div>
+          <img
+            :src="project.image"
+            :alt="project.title"
+            class="mb-4 aspect-video w-full rounded-md border border-purple-500/10 object-cover"
+          />
           <h3 class="text-lg font-semibold text-white">{{ project.title }}</h3>
           <p class="mt-2 text-sm leading-relaxed text-gray-400">
             {{ project.desc }}

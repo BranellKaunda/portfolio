@@ -9,4 +9,14 @@
   --color-accent-light: #c084fc;
   --color-accent-dark: #7c3aed;
   --color-muted: #6b7280;
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Space Grotesk", "Inter", ui-sans-serif, system-ui, sans-serif;
+}
+
+@layer base {
+  h1,
+  h2,
+  h3 {
+    font-family: var(--font-display);
+  }
 }

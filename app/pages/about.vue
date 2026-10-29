@@ -45,7 +45,7 @@ useHead({
       </h1>
       <div class="mt-8 space-y-5 text-base leading-relaxed text-gray-400">
         <p>
-          I'm a self-taught front-end developer from Alcoy, Spain with 2 years
+          I'm a self-taught full-stack developer from Alcoy, Spain with 2 years
           of experience. My goal is to learn something new every day, and to
           build things that are useful to people.
         </p>
