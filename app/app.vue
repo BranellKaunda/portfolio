@@ -18,5 +18,6 @@ useHead({
   <div class="min-h-screen bg-canvas text-gray-300 antialiased">
     <NavBar />
     <NuxtPage />
+    <AnaphiriChat />
   </div>
 </template>
