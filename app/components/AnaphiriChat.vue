@@ -41,7 +41,9 @@ async function send() {
     });
     messages.value.push({
       role: "assistant",
-      text: res?.answer ?? "Sorry, I didn't get an answer. Please try again.",
+      text:
+        res?.answer?.trim() ||
+        "Sorry, I didn't get an answer. Please try again.",
     });
   } catch {
     messages.value.push({
@@ -84,18 +86,22 @@ async function send() {
           </div>
         </div>
 
-        <div ref="scroller" class="flex-1 space-y-4 overflow-y-auto p-4">
+        <div
+          ref="scroller"
+          class="flex-1 space-y-4 overflow-y-auto p-4 [scrollbar-width:none] [&::-webkit-scrollbar]:hidden"
+        >
           <div
             v-for="(msg, i) in messages"
             :key="i"
             :class="[
-              'max-w-[80%] whitespace-pre-line rounded-2xl px-4 py-2 text-sm leading-relaxed',
+              'max-w-[80%] whitespace-normal rounded-2xl px-4 py-2 text-sm leading-relaxed',
               msg.role === 'user'
                 ? 'ml-auto rounded-br-sm bg-purple-600 text-white'
                 : 'mr-auto rounded-bl-sm bg-card text-gray-300',
             ]"
           >
-            {{ msg.text }}
+            <!--  <v-html>{{ msg.text }}</v-html> -->
+            <span v-html="msg.text"></span>
           </div>
 
           <div
@@ -120,7 +126,7 @@ async function send() {
             v-model="input"
             type="text"
             placeholder="Ask about Branell..."
-            class="flex-1 rounded-full bg-card px-4 py-2 text-sm text-white placeholder-gray-500 outline-none ring-purple-500 focus:ring-1"
+            class="flex-1 rounded-full bg-card px-4 py-2 text-base text-white md:text-sm placeholder-gray-500 outline-none ring-purple-500 focus:ring-1"
           />
           <button
             type="submit"
